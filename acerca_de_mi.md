@@ -17,3 +17,6 @@ Participé en la versión de Tikkum Olam Makers 2023 en el colegio hebreo Olamí
 
 ## Mis objetivos
 
+Ser un igeniero mecatrónico que impulse la innovación, el desarrollo tecnológico, y la investigación en proyectos sustentables para crear un mañana con lleno de posibilidades y mejorar aspectos mencionados en los ODS de la ONU.
+
+Conocer el mundo y viajar, atendiendo las necesidades de las personas que se encuentran con problemas, que no solamente requieran soluciones técnicas, también, soluciones más humanas. 
