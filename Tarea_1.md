@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tarea 1
+title: **Tarea 1**
 nav_order: 7
 ---
 # Tarea 1
