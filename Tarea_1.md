@@ -83,7 +83,7 @@ Link del video: [Práctica_00](https://youtube.com/shorts/im3Q0wr0bbQ?feature=sh
 Esta práctica nos permite ver el Arduino inicializado, con la evidencia de que el indicador LED de entradas se encuentra parpadeando.
 
 Código práctica :
-
+```yml
 // C++ code
 //
 void setup()
@@ -118,7 +118,7 @@ void loop()
 {
   digitalWrite(13, HIGH);
 }
-
+```
 ## 02 PIN_13_LOW
 Link del video: [Práctica_02](https://youtube.com/shorts/JB2_dd-b4W0?feature=share)
 ![Práctica_03](assets/img/Tarea_1/practicas/03.png)
@@ -126,7 +126,7 @@ Link del video: [Práctica_02](https://youtube.com/shorts/JB2_dd-b4W0?feature=sh
 En ésta parte se configuró el indicador LED para que se mantuviera apagado (LOW).
 
 Código práctica :
-
+```yml
 // C++ code
 //
 void setup()
@@ -138,7 +138,7 @@ void loop()
 {
   digitalWrite(13, LOW);
 }
-
+```
 ## 03 Delay
 Link del video: [Práctica_03](https://youtube.com/shorts/T_IeBeGRtW0?feature=share)
 ![Práctica_04](assets/img/Tarea_1/practicas/04.png)
@@ -146,7 +146,7 @@ Link del video: [Práctica_03](https://youtube.com/shorts/T_IeBeGRtW0?feature=sh
 Aquí se programó el arduino para que el indicador LED tenga un retraso (delay) de 1 segundo.
 
 Código práctica :
-
+```yml
 // C++ code
 //
 void setup()
@@ -161,7 +161,7 @@ void loop()
   digitalWrite(13, LOW);
   delay(1000); // Wait for 1000 millisecond(s)
 }
-
+```
 ## 04 Led parpadeando
 Link del video: [Práctica_04](https://youtube.com/shorts/o_R1jhTqSz4?feature=share)
 ![Práctica_05](assets/img/Tarea_1/practicas/05.png)
@@ -169,7 +169,7 @@ Link del video: [Práctica_04](https://youtube.com/shorts/o_R1jhTqSz4?feature=sh
 Se programó el arduino para que el LED se encendiera y se apagara al encontrarse conectado directamente al arduino.
 
 Código práctica :
-
+```yml
 // C++ code
 //
 void setup()
@@ -184,7 +184,7 @@ void loop()
   digitalWrite(13, LOW);
   delay(1000); // Wait for 1000 millisecond(s)
 }
-
+```
 ## 05 Circuito con resistor para Led
 Link del video: [Práctica_05](https://youtube.com/shorts/GW0NLEjQkjs?feature=share)
 ![Práctica_06](assets/img/Tarea_1/practicas/06.png)
@@ -192,7 +192,7 @@ Link del video: [Práctica_05](https://youtube.com/shorts/GW0NLEjQkjs?feature=sh
 Se construyó un circuito con una resistencia de 220 ohmios para proteger al LED. A su vez, el código permitía que el LED parpadeara como en el ejercicio anterior.
 
 Código práctica :
-
+```yml
 // C++ code
 //
 void setup()
@@ -207,7 +207,7 @@ void loop()
   digitalWrite(13, LOW);
   delay(1000); // Wait for 1000 millisecond(s)
 }
-
+```
 ## 06 Circuito con dos LEDs alternando
 Link del video: [Práctica_06](https://youtube.com/shorts/-ThP8Hp3MgQ?feature=share)
 ![Práctica_07](assets/img/Tarea_1/practicas/07.png)
@@ -215,7 +215,7 @@ Link del video: [Práctica_06](https://youtube.com/shorts/-ThP8Hp3MgQ?feature=sh
 Se expandió el circuito existente añadiendo un LED y resistencia adicional en paralelo, y el código permitía que parpadearan intermitentemente uno tras otro.
 
 Código práctica :
-
+```yml
 // C++ code
 //
 void setup()
@@ -235,7 +235,7 @@ void loop()
   digitalWrite(12, LOW);
   delay(1000); // Wait for 1000 millisecond(s)
 }
-
+```
 ## 07 Circuito con dos LEDs emparejados
 Link del video: [Práctica_07](https://youtube.com/shorts/CKdG0U9ygZA?feature=share)
 ![Práctica_08](assets/img/Tarea_1/practicas/08.png)
@@ -243,8 +243,7 @@ Link del video: [Práctica_07](https://youtube.com/shorts/CKdG0U9ygZA?feature=sh
 En escencia es el mismo circuito que el anterior, solo que el programa hace que los LEDs vayan a la misma frecuencia.
 
 Código práctica :
-
-
+```yml
 // C++ code
 //
 void setup()
@@ -259,7 +258,7 @@ void loop()
   digitalWrite(13, LOW);
   delay(1000); // Wait for 1000 millisecond(s)
 }
-
+```
 ## 08 Display de 7 segmentos
 Link del video: [Práctica_08](https://youtube.com/shorts/yo0eoAQBA6g?feature=share)
 ![Práctica_09](assets/img/Tarea_1/practicas/09.png)
@@ -267,7 +266,7 @@ Link del video: [Práctica_08](https://youtube.com/shorts/yo0eoAQBA6g?feature=sh
 Se hicieron las conexiones correspondientes al display de 7 segmentos para que mostrara el número 9. Esto gracias a que el código mandaba señales HIGH y LOW a los pines correspondientes del display.
 
 Código práctica :
-
+```yml
 // C++ code
 //
 void setup()
@@ -294,7 +293,7 @@ void loop()
   digitalWrite(9, HIGH); //Segmento punto
   delay(1000);
 }
-
+```
 ## 09 Contador
 Link del video: [Práctica_09](https://youtube.com/shorts/JFwFJl4hdnE?feature=share)
 ![Práctica_10](assets/img/Tarea_1/practicas/10.png)
@@ -302,7 +301,7 @@ Link del video: [Práctica_09](https://youtube.com/shorts/JFwFJl4hdnE?feature=sh
 Se hizo un programa para realizar una secuencia númerica del 1 al 3 (no se hicieron bien las conexiones).
 
 Código práctica :
-
+```yml
 // C++ code
 //
 void setup()
@@ -353,7 +352,7 @@ void loop()
   delay(1000);
   
 }
-
+```
 ## 10 Entrada digital con botón
 Link del video: [Práctica_10](https://youtube.com/shorts/Obgd7tISlhM?feature=share)
 ![Práctica_11](assets/img/Tarea_1/practicas/11.png)
@@ -361,7 +360,7 @@ Link del video: [Práctica_10](https://youtube.com/shorts/Obgd7tISlhM?feature=sh
 Construimos un circuito en el que un botón permitía el flujo de corriente a un LED, siendo el estado del botón la condición lógica.
 
 Código práctica :
-
+```yml
 // C++ code
 //
 
@@ -376,7 +375,7 @@ void loop()
 {
   digitalWrite(13, digitalRead(8)); //Escribimpos en el LED el valor del BOTON
 }
-
+```
 ## 11 Entrada digital con dos botónes
 Link del video: [Práctica_11](https://youtube.com/shorts/QLBKjJ9850g?feature=share)
 ![Práctica_12](assets/img/Tarea_1/practicas/12.png)
@@ -384,7 +383,7 @@ Link del video: [Práctica_11](https://youtube.com/shorts/QLBKjJ9850g?feature=sh
 En escencia es la práctica anterior pero con dos botones.
 
 Código práctica :
-
+```yml
 // C++ code
 //
 
@@ -403,7 +402,7 @@ void loop()
   digitalWrite(13, digitalRead(8)); //Escribimpos en el LED1 el valor del BOTON1
   digitalWrite(11, digitalRead(2)); //Escribimpos en el LED2 el valor del BOTON2
 }
-
+```
 ## 12 Entrada digital con condición
 Link del video: [Práctica_12](https://youtube.com/shorts/SlA5CXg_wUw?feature=share)
 ![Práctica_13](assets/img/Tarea_1/practicas/13.png)
@@ -411,7 +410,7 @@ Link del video: [Práctica_12](https://youtube.com/shorts/SlA5CXg_wUw?feature=sh
 Lo que hace este código es leer el estado del botón, en este caso cuando se pulsa, el arduino lee que se cumple la condición y enciende el LED, cuando no se cumple lo apaga.
 
 Código práctica :
-
+```yml
 // C++ code
 //
 
@@ -434,7 +433,7 @@ void loop()
     digitalWrite(13, LOW);			//SI: apagamos el led1
   }
 }
-
+```
 ## 13 Entrada digital con condición (dos botones)
 Link del video: [Práctica_13](https://youtube.com/shorts/Z-R9o-GPFJ4?feature=share)
 ![Práctica_14](assets/img/Tarea_1/practicas/14.png)
@@ -442,7 +441,7 @@ Link del video: [Práctica_13](https://youtube.com/shorts/Z-R9o-GPFJ4?feature=sh
 Hace exactamente lo mismo que la práctica anterior pero con dos botones.
 
 Código práctica :
-
+```yml
 // C++ code
 //
 
@@ -476,7 +475,7 @@ void loop()
     digitalWrite(11, LOW);			//SI: apagamos el led2
   }
 }
-
+```
 ## 14 Condición OR con botones
 Link del video: [Práctica_14](https://youtube.com/shorts/-T7_mfW067o?feature=share)
 ![Práctica_15](assets/img/Tarea_1/practicas/15.png)
@@ -484,7 +483,7 @@ Link del video: [Práctica_14](https://youtube.com/shorts/-T7_mfW067o?feature=sh
 Se simuló una condición tipo OR en el código, haciendo que, si un botón **O** ambos estaban presionados, entonces el LED se encendía, si **ninguno** se encontraba presionado, entonces se apagaba.
 
 Código práctica :
-
+```yml
 // C++ code
 //
 
@@ -510,7 +509,7 @@ void loop()
   }
 
 }
-
+```
 ## 15 Condición AND con botones
 Link del video: [Práctica_15](https://youtube.com/shorts/EIUdnmTyj9s?feature=share)
 ![Práctica_16](assets/img/Tarea_1/practicas/16.png)
@@ -518,7 +517,7 @@ Link del video: [Práctica_15](https://youtube.com/shorts/EIUdnmTyj9s?feature=sh
 En este caso se simuló una compuerta tipo AND, siendo que la condición se cumple cuando **solo si** se presionan ambos botones..
 
 Código práctica :
-
+```yml
 // C++ code
 //
 
@@ -544,7 +543,7 @@ void loop()
   }
 
 }
-
+```
 ## 16 Contador LED
 Link del video: [Práctica_16](https://youtube.com/shorts/u-XFvtNUUe0?feature=share)
 ![Práctica_17](assets/img/Tarea_1/practicas/17.png)
@@ -552,7 +551,7 @@ Link del video: [Práctica_16](https://youtube.com/shorts/u-XFvtNUUe0?feature=sh
 Se diseñó un circuito de LEDs en paralelo con la función de representar una cuenta, con un código que, por cada vez que se presionaba un botón, un LED adicional se iluminaba, y al llegar al máximo de LEDs iluminados, se reiniciaba la cuenta apagando todos los LEDs.
 
 Código práctica :
-
+```yml
 // C++ code
 // CONTADOR
 
@@ -616,7 +615,7 @@ void loop()
     digitalWrite(10, HIGH);
   }
 }
-
+```
 ## 17 Inicio Servo
 ![17](assets/img/Tarea_1/extra/17.jpg)
 ![Práctica_18](assets/img/Tarea_1/practicas/18.png)
@@ -624,7 +623,7 @@ void loop()
 Este programa hacía que, al conectar un servomotor al arduino, hacía que este tomara el valor inicial de 0° sin importar su posición.
 
 Código práctica :
-
+```yml
 // C++ code
 // Incluímos la librería para poder controlar el servo
 #include <Servo.h>
@@ -643,7 +642,7 @@ void loop()
   // Desplazamos a la posición 90º
   servoMotor.write(90);
 }
-
+```
 ## 18 Posiciones Servo
 Link del video: [Práctica_18](https://youtube.com/shorts/r4xbcZfGzGU?feature=share)
 ![Práctica_19](assets/img/Tarea_1/practicas/19.png)
@@ -651,7 +650,7 @@ Link del video: [Práctica_18](https://youtube.com/shorts/r4xbcZfGzGU?feature=sh
 Con este código, se creó una secuencia de posiciones en las que el servomotor se colocaba cada segundo. Dicha secuencia se repite indefinidamente.
 
 Código práctica :
-
+```yml
 // C++ code
 // Incluímos la librería para poder controlar el servo
 #include <Servo.h>
@@ -682,7 +681,7 @@ void loop()
   // Esperamos 1 segundo
   delay(1000);
 }
-
+```
 ## 19 Un servomotor con potenciómetro
 Link del video: [Práctica_19](https://youtube.com/shorts/Fi9dAzrovCQ?feature=share)
 ![Práctica_20](assets/img/Tarea_1/practicas/20.png)
@@ -690,7 +689,7 @@ Link del video: [Práctica_19](https://youtube.com/shorts/Fi9dAzrovCQ?feature=sh
 Se diseñó un circuito que, dependiendo la corriente que permitiera pasar el potenciómetro, el servo tomaría valores de 0 a 180 grados. En el código se define una normalización de valores que se leen en la librería del servo de 0 a 5V.
 
 Código práctica :
-
+```yml
 // C++ code
 // Incluímos la librería para poder controlar el servo
 #include <Servo.h>
@@ -718,7 +717,7 @@ void loop()
   // Esperamos 1 segundo
   delay(1000);
 }
-
+```
 ## 20 Dos servomotores con un potenciómetro
 Link del video: [Práctica_20](https://youtu.be/vb8Seued3eY)
 ![Práctica_21](assets/img/Tarea_1/practicas/21.png)
@@ -726,7 +725,7 @@ Link del video: [Práctica_20](https://youtu.be/vb8Seued3eY)
 En esta práctica, se utilizaron dos servomotores y sus posiciones estaban definidas por un solo potenciómetro.
 
 Código práctica :
-
+```yml
 // C++ code
 #include <Servo.h>
 int valor;		//variable que almacena la lectura analógica raw
@@ -760,7 +759,7 @@ void loop()
   //esperamos un poco para que se mueva
   delay(10);
 }
-
+```
 ## 21 Dos servomotores con dos potenciómetros
 Link del video: [Práctica_21](https://youtu.be/ZUcOmecNfMw)
 ![Práctica_22](assets/img/Tarea_1/practicas/22.png)
@@ -768,7 +767,7 @@ Link del video: [Práctica_21](https://youtu.be/ZUcOmecNfMw)
 Aquí, similar que en la práctica 19 se controlan dos servomotores utilizando un potenciómetro para cada uno.
 
 Código práctica :
-
+```yml
 // C++ code
 #include <Servo.h>
 int valor1;		//variable que almacena la 
@@ -809,7 +808,7 @@ void loop()
   //esperamos un poco para que se mueva
   delay(10);
 }
-
+```
 ## 22 Servomotor con fuente externa
 Link del video: [Práctica_22](https://youtube.com/shorts/ZWjGVZDHUgw?feature=share)
 ![Práctica_23](assets/img/Tarea_1/practicas/23.png)
@@ -817,7 +816,7 @@ Link del video: [Práctica_22](https://youtube.com/shorts/ZWjGVZDHUgw?feature=sh
 Dentro de esta última práctica, se conectó una fuente externa a los pines Vcc y GND del servomotor para brindarle potencia diferente a la proporcionada por el arduino.
 
 Código práctica :
-
+```yml
 // C++ code
 #include <Servo.h>
 int valor;		//variable que almacena la lectura analógica raw
@@ -851,7 +850,7 @@ void loop()
   //esperamos un poco para que se mueva
   delay(10);
 }
-
+```
 ## Concluisón
 
 Estas prácticas son fundamentales ya que, gracias a ellas, podemos conocer las funciones básicas de arduino IDE, apreciamos la distribución de los pines en el microcontrolador Arduino UNO, realizamos varios sistemas con varios componentes electrónicos y comprobamos el funcionamiento del códgico en conjunto con los circuitos armados. Este tipo de herramientas nos abre las puertas para poder diseñar, construir y aplicar diversas herramientas de sistemas, facilitando así la realización de proyectos mecatrónicos.
