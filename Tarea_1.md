@@ -99,6 +99,7 @@ void loop()
   delay(1000); // Wait for 1000 millisecond(s)
 }
 ```
+
 ## 01 PIN_13_HIGH
 Link del video: [Práctica_01](https://youtube.com/shorts/f5nQAyJDfuA?feature=share)
 ![Práctica_02](assets/img/Tarea_1/practicas/02.png)
